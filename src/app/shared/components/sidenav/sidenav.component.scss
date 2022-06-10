@@ -1,0 +1,35 @@
+a {
+    width: 100%;
+    text-decoration: none;
+    font-size: x-large;
+    color:rgba(0, 0, 0, 0.79);
+}
+
+a:hover {
+    color: rgba(104, 98, 98, 0.79);
+}
+
+
+div {
+    margin-bottom: 15px;
+
+}
+
+.drawer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: 9999;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+    width: 100px;
+
+    padding: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
